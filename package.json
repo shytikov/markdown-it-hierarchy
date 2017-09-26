@@ -1,0 +1,23 @@
+{
+  "name": "markdown-it-hierarchy",
+  "version": "1.0.0",
+  "description": "Adds numbering hierarchy to headers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shytikov/markdown-it-hierarchy.git"
+  },
+  "keywords": [
+    "markdown-it",
+    "markdown-it-plugin"
+  ],
+  "author": "Alexey Shytikov <alexey.shytikov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shytikov/markdown-it-hierarchy/issues"
+  },
+  "homepage": "https://github.com/shytikov/markdown-it-hierarchy#readme"
+}
