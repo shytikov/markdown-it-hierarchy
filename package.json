@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-hierarchy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds numbering hierarchy to headers",
   "main": "index.js",
   "scripts": {
