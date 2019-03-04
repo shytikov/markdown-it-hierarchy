@@ -10,11 +10,6 @@
 // - In the 'text' rule if we find the matching token the token is modified to append the hierarchy text,
 //   the token is rendered and the output stored, and the token restoreds
 
-let accumulator = {}
-let last = ''
-let hierarchyTextOutput = ''
-let waitingForObject = null
-
 let generateHierarchicalText = function (accumulator, level) {
     let value = ''
 
@@ -30,6 +25,11 @@ let generateHierarchicalText = function (accumulator, level) {
 }
 
 let hierarchy = function (md, opts) {
+    let accumulator = {}
+    let last = ''
+    let hierarchyTextOutput = ''
+    let waitingForObject = null
+
     // Store the previous rules so we can call the previous rules. This allows
     // us to insert ourselves without disrupting other plugins that are also
     // attaching to the same rules
